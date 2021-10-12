@@ -1,0 +1,12 @@
+body{
+    margin: 10px;
+}
+p{
+    color: sandybrown;
+    border: 1px solid blue;
+}
+
+strong{
+    color: initial;
+    border: inherit;
+}

@@ -1,0 +1,72 @@
+body{
+    margin: 10px;
+}
+#list{
+
+}
+
+
+p{
+    color:darkolivegreen;
+}
+/*
+a[target]{
+
+}
+a[href^="https"][href*="google"][href$=".com"]{
+    color: rgb(238, 94, 11);
+}
+*/
+/*
+#lists p{
+    color: violet;
+}
+#lists >p{
+    color: violet;
+}
+#lists +p{
+    color: violet;
+}
+*/
+#lists ~p{
+    color: violet;
+}
+
+article :first-child{
+    font-size: 50 ;
+    color: tomato;
+    font-style:italic;
+}
+article :last-child{
+    font-size: 50 ;
+    color: blue;
+    font-style:italic;
+}
+article:last-of-type{
+    font-size: 50 ;
+    color: green;
+    font-style:italic;
+}
+ol li:nth-child(3n){
+    color:red;
+}
+a:visited, a:link {
+    color: bule
+}
+a:hover,a:focus{
+    color: seagreen;
+}
+p::first-letter{
+    font-size: 200%;
+    font-weight: 40;
+}
+p::before{
+    content: hello;
+}
+
+.priority#product{
+    color:rebeccapurple ;
+}
+p.class1.class2{
+    color: salmon;
+}
