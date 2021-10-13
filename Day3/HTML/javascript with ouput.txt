@@ -1,0 +1,144 @@
+let name= "srini"
+undefined
+typeof name
+'string'
+name = 1;
+1
+typeof name
+typeof n
+typeof name
+typeof name
+typeof name
+typeof name
+typeof name
+'number'
+'undefined'
+'number'
+'number'
+'number'
+'number'
+'number'
+ typeof name
+'number'
+let firstname= undefined;
+undefined
+typeof firstname
+'undefined'
+name= "srini"
+'srini'
+typeof name
+'string'
+name= 1
+1
+typeof name
+'number'
+let person={
+    name: "srini",
+    age:21,
+};
+undefined
+person.name="Anoop";
+'Anoop'
+person["name"]="rock";
+'rock'
+console.log(person);
+VM901:1 {name: 'rock', age: 21}
+undefined
+let productList= ["bread","butter","jam"];
+undefined
+console.log(productList[0]);
+VM1104:1 bread
+undefined
+productList[2]="milk";
+'milk'
+console.log(productList);
+VM1236:1 (3) ['bread', 'butter', 'milk']
+undefined
+Function hello(name) {
+VM1298:1 Uncaught SyntaxError: Unexpected identifier
+Function hello(name) { console.log("hello world" +name); }
+VM1428:1 Uncaught SyntaxError: Unexpected identifier
+function hello(name) { console.log("hello world" +name); }
+undefined
+hello(srini);
+VM1508:1 Uncaught ReferenceError: srini is not defined
+    at <anonymous>:1:7
+(anonymous) @ VM1508:1
+hello("srini");
+VM1468:1 hello worldsrini
+undefined
+
+--Example of if else
+
+let hour = 9;
+if (hour >= 6 && hour < 12) console.log("Good Morning");
+else if (hour >= 12 && hour < 18) console.log("Good Afternoon");
+else console.log("Good Evening");
+
+Good Morning
+undefined
+
+
+--Example of switch 
+
+switch(role){
+    case 'superadmin' : console.log("super Admin"); break;    case 'guest' : console.log("Provider"); break;   case 'provider' : console.log("provide"); break;   default : console.log("default"); break; }
+VM1145:2 default
+undefined
+
+let role ="provider";
+undefined
+
+
+switch(role){
+    case 'superadmin' : console.log("super Admin"); break;    case 'guest' : console.log("Provider"); break;   case 'provider' : console.log("provide"); break;   default : console.log("default"); break; }
+VM1233:2 provide
+
+
+--Example of for loop
+
+for (let i = 0; i < 10; i++) {​​​​​​  if (i % 2 === 0) console.log("Even no", i);  else console.log("odd no", i);}​​​​​​
+
+--Example of while loop
+
+let i = 0; while(i<10){​​​​​​    if (i % 2 !== 0) console.log(i);    i++;}​​​​​​
+
+--Example of do-while
+
+let i=0;
+do{
+if(i % 2 !== 0) console.log(i);
+i++;
+} while(i < 4);
+
+
+--Example of for-in
+// for-in
+const person = {
+  name: "hemanth",
+  age: 30,
+};
+for (let key in person) {
+  console.log(key, person[key]);
+}
+
+
+
+// for-of
+const productList = ["bread", "jam", "milk", "cake"];
+for (let i in productList) {
+  console.log(i, productList[i]);
+}
+for (let product of productList) {
+  console.log(product);
+}
+
+//BREAK AND CONTINUE
+
+
+let i = 0;while (i <= 10) {​​​​​​  if (i % 2 === 0) {​​​​​​    i++;    continue;  }​​​​​​  console.log(i);  i++;}​​​​​​
+
+
+
+
+
