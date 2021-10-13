@@ -1,0 +1,16 @@
+Spring Boot:Spring Boot is a project that is built on the top of the Spring Framework.
+ It provides an easier and faster way to set up, configure, and run both simple 
+and web-based applications.
+
+
+framework-> multiple lib example car have many doors.
+spring boot -> multiple lib
+//web serv
+    //spring jdbc template
+    //mvc structure
+    //module, view, controller process
+    //micro services
+    //backend, view(html,css,js) request
+    //module(backend code), view(html,response), controller(request)
+
+
