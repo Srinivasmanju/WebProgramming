@@ -1,0 +1,18 @@
+Add new elements- push(),unshift(),slice()
+
+finding the elements(primitive values)- indexOf(), lastIndexOf(), includes()
+finding the elements(objects) - find(fun(){}), findIndex(fun())
+
+remove elements- pop(), shift(), splice()
+
+spliting the arrays- concat(), slice()
+
+Combining the array
+
+
+Frameworks:
+@Respository
+
+@Component
+
+@Service
