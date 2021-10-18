@@ -1,0 +1,46 @@
+body{
+    background-color:#DEBA9D;
+}
+.box{
+    background-color:#3d4543 ;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 35%;
+}
+.display{
+    background-color: #222;
+    width: 220px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+    height: 40px;
+}
+.display input{
+    position: relative;
+    left: 2px;
+    top: 2px;
+    height: 29px;
+    width: 206px;
+    color: black;
+    background-color: #bccd95;
+    font-size: 21px;
+    text-align: right;
+}
+.keys{
+    position: relative;
+    top: 15px;
+
+}
+
+.button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-top: 2px solid transparent;
+}
