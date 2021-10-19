@@ -1,0 +1,51 @@
+JPA- java persistance API
+
+Relational Databases - use of tables
+Normalization- 
+
+Application classes(employee)---> JPA(entity manager)--- JDBC queries --- Database server
+
+public class task{
+private int id;
+private String desc;
+private Date targetDate;
+
+private List<Employee> employess;
+
+create table task(
+id Integer,
+desc varchar(25),
+target_date timestamp,
+primary key(id));
+
+
+public class Employee{
+//code
+private List<Task> tasks;
+}
+
+public class Task{
+//code
+private List<Employee>employee;
+}
+
+
+Create table employee(
+id BIGINT ,
+name varchar(25),
+primary key(id));
+
+Object Relational Impedence mismatch?
+
+JDBC- it uses concepts like statement, resultset
+
+eg: jdbc Template 
+update(update todo set user=?, desc=?, targetDate=?)
+todo.getUser();
+todo.getDec();
+st=connection.funcname(SELECT * from tod where id=?);
+st.setInt(1,id)
+
+
+mapping parameter to the query
+
